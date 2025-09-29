@@ -21,7 +21,7 @@
   
   /* Links */
   a {
-    color: #b3eaf2;
+    color: #3a9cab;
     text-decoration: none;
     font-weight: bold;
   }
@@ -29,8 +29,10 @@
   a:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: #2d7d8a;
   }
   
+  /* Logo */
   .logo {
     font-family: 'Cinzel', serif;
     font-size: 1.8rem;
@@ -38,7 +40,6 @@
     color: inherit;
   }
   
-  /* Prevent underline on logo hover */
   .logo:hover {
     text-decoration: none;
     cursor: pointer;
@@ -65,10 +66,16 @@
   }
   
   nav a {
-    color: inherit;
+    color: #3a9cab;
   }
   
   /* Hero Section */
+  .hero-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
   .hero {
     display: flex;
     flex-direction: column;
@@ -98,8 +105,9 @@
     margin-bottom: 0.5rem;
   }
   
-  .hero-text h2 a {
-    color: #20504f;
+  .hero-text h2,
+  .featured h3 {
+    color: #1e4d4c;
     font-weight: 700;
   }
   
@@ -127,7 +135,13 @@
     transform: scale(1.02);
   }
   
-  .featured img {
+  .article-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article-link img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -135,9 +149,9 @@
     border-radius: 4px;
   }
   
-  .featured h3 a {
-    color: #20504f;
+  .article-link h3 {
     font-weight: 700;
+    font-size: 1.1rem;
   }
   
   /* Footer */
@@ -148,5 +162,70 @@
     color: #b3eaf2;
     text-align: center;
     margin-top: 1.5rem;
+  }
+  
+  /* Full Article Page */
+  .full-article {
+    background-color: #ffffff;
+    color: #103b32;
+    padding: 2rem;
+    border: 1px solid #20504f;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
+  
+  .full-article img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .full-article h1 {
+    font-size: 2.5rem;
+    color: #20504f;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article-meta {
+    font-size: 0.9rem;
+    color: #406b68;
+    margin-bottom: 1.5rem;
+  }
+  
+  .article-body p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .full-article h2,
+  .full-article h3 {
+    color: #20504f;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .full-article h2 {
+    font-size: 1.8rem;
+  }
+  
+  .full-article h3 {
+    font-size: 1.4rem;
+  }
+  
+  .full-article ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid #70c4d1;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+    color: #20504f;
   }
   
