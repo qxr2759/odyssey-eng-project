@@ -388,3 +388,44 @@
   text-decoration: underline;
   color: #2d7d8a;
 }
+
+/* Works Cited Styling */
+.works-cited h2 {
+  font-size: 1.5rem;
+  color: #20504f;
+  margin-bottom: 1.2rem;
+}
+
+.citation-list {
+  margin-left: 1rem;
+}
+
+.citation-list p {
+  margin-bottom: 1.2rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem; /* Hanging indent */
+  line-height: 1.7;
+}
+
+.citation-list em {
+  font-style: italic;
+}
+
+.citation-list a {
+  color: #3a9cab;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.citation-list a:hover {
+  text-decoration: underline;
+  color: #2d7d8a;
+}
+
+.citation-list .author {
+  font-weight: bold;
+}
+
+.citation-list .source {
+  font-style: italic;
+}
