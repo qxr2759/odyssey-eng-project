@@ -291,4 +291,100 @@
     color: #406b68;
     margin-bottom: 0.5rem;
   }
-  
+
+ /* About Us Page Styles */
+
+/* Title styling for sections like "About Us" and "Meet the Authors" */
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.2rem;
+  color: #b3eaf2;
+  margin-bottom: 2rem;
+}
+
+/* About intro section */
+.about-intro {
+  background-color: #ffffff;
+  color: #103b32;
+  padding: 2rem;
+  border: 1px solid #20504f;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.about-intro p {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-intro .signature {
+  text-align: right;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+/* Author bios */
+.author-bio {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+  background-color: #ffffff;
+  color: #103b32;
+  border: 1px solid #20504f;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.author-bio img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.author-bio h2 {
+  font-size: 1.4rem;
+  color: #1e4d4c;
+  margin-bottom: 0.5rem;
+}
+
+.author-bio p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Related Links Section */
+.related-links {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #70c4d1;
+}
+
+.related-links h2 {
+  font-size: 1.5rem;
+  color: #20504f;
+  margin-bottom: 1rem;
+}
+
+.related-links ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.related-links li {
+  margin-bottom: 0.8rem;
+}
+
+.related-links a {
+  color: #3a9cab;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.related-links a:hover {
+  text-decoration: underline;
+  color: #2d7d8a;
+}
